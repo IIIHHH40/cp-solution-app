@@ -54,11 +54,11 @@
 ### Problemtテーブル
 | フィールド名 | 型| 必須 | 説明 |
 | :---:| :---:| :---:||:---:|
-| id | Long |
-| title|
-| difficulty|
-| url|
-| memo|
+| id | Long |必須|...|
+| title| String| 必須|必須じゃないならデフォルト値を設定 |
+| difficulty|String||自由度を持たせていいのか|
+| url| String||URLを入力したのちにデータを取得する|
+| memo| String| | 
 | createdAt|
 
 ## Submission
