@@ -54,12 +54,12 @@
 ### Problemtテーブル
 | フィールド名 | 型| 必須 | 説明 |
 | :---:| :---:| :---:||:---:|
-| id | Long |
-| title|
-| difficulty|
-| url|
-| memo|
-| createdAt|
+| id | Long |---|---|
+| title|String |必須|---|
+| difficulty|Integer|任意|---|
+| url|String|任意|----|
+| memo|String|任意|---|
+| createdAt|LocalDate|---|---|
 
 ## Submission
 |フィールド名| 型 | 必須 | 説明 |
