@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Entity
 @Table(name="Problem")
 @Getter
@@ -21,7 +23,7 @@ public class Problem {
     private String title;
 
     @Column(nullable=false)
-    private String difficulty;
+    private Integer difficulty;
 
     @Column(nullable=false)
     private String url;
@@ -30,9 +32,7 @@ public class Problem {
     private String memo;
 
     @Column(nullable=true)
-    //データの型を調べる
-    private int createAt;
-
+    private LocalDate createAt;
 
 
 }
